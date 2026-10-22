@@ -1,0 +1,26 @@
+{
+  "project": "Video-Gen",
+  "platforms": [
+    "tiktok"
+  ],
+  "publishing": {
+    "mode": "manual_approval"
+  },
+  "providers": {
+    "llm": "unconfigured",
+    "video": "unconfigured"
+  },
+  "budgets": {
+    "max_usd_per_run": 2,
+    "max_usd_per_month": 30
+  },
+  "storage": {
+    "root": "data",
+    "memory_root": "data/memory"
+  },
+  "features": {
+    "research_live": false,
+    "video_generation": false,
+    "auto_publish": false
+  }
+}

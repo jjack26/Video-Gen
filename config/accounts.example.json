@@ -1,0 +1,21 @@
+{
+  "accounts": [
+    {
+      "account_id": "example_tech",
+      "platform": "tiktok",
+      "niche": "technology",
+      "strategy": "audience_first",
+      "monetization": "undecided",
+      "authorized": false
+    },
+    {
+      "account_id": "example_lifestyle",
+      "platform": "tiktok",
+      "niche": "lifestyle",
+      "strategy": "audience_first",
+      "monetization": "undecided",
+      "authorized": false
+    }
+  ],
+  "note": "Examples only. No accounts are connected or created."
+}
