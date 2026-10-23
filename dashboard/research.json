@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-10-22",
+  "scope": "Initial evidence review; competitor cohort incomplete",
+  "entries": [
+    {
+      "platform": "YouTube",
+      "kind": "Platform guidance",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en",
+      "note": "Watch choice, duration, percentage viewed and satisfaction inform Shorts ranking. No guaranteed format or minimum posting cadence. Not a clip-level performance observation."
+    },
+    {
+      "platform": "YouTube",
+      "kind": "Creator practice",
+      "url": "https://blog.youtube/creator-and-artist-stories/youtube-shorts-deep-dive/",
+      "note": "Jenny Hoyos describes immediate hooks and compact storytelling. A creator method, not a universal one-second algorithm threshold."
+    },
+    {
+      "platform": "Instagram",
+      "kind": "Analytics guidance",
+      "url": "https://about.fb.com/news/2023/04/instagram-reels-trending-audio-and-gifts-updates/",
+      "note": "Meta documents total and average watch time for diagnosing viewer attention. No Clash-specific performance claim."
+    },
+    {
+      "platform": "TikTok",
+      "kind": "Advertising research",
+      "url": "https://ads.tiktok.com/business/en/creative-codes",
+      "note": "Structure, early attention and sound are useful test directions. Advertising evidence does not guarantee organic results. Direct creator-clip access remains missing."
+    },
+    {
+      "platform": "Supercell",
+      "kind": "Professional craft reference",
+      "url": "https://roofstudio.tv/work/clash-royale",
+      "note": "ClashterPieces turns player moments into three distinct narrative shorts. Studio-reported campaign reach is not a comparable new-account organic benchmark."
+    },
+    {
+      "platform": "Reddit",
+      "kind": "Audience discussion",
+      "url": "https://www.reddit.com/r/ClashRoyale/comments/1eh525w/why_has_clash_royales_youtube_videos_changed/",
+      "note": "Commenters disagree about 2D and 3D styles. Older self-selected qualitative evidence, not proof of a winning style."
+    }
+  ]
+}
