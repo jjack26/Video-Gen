@@ -39,3 +39,13 @@ Install the manifest-backed web app with Safari Share > Add to Home Screen or An
 Deploy an authenticated API, persistent per-user database and queue, object storage, model adapter with hard budget controls, trusted worker with FFmpeg, and official research/publishing connectors. Store secrets in hosting environment configuration. Never put keys or GitHub tokens in the static site. ChatGPT's Metricool OAuth connection and subscription do not transfer to the website. Claude session access has not been connected. A supported server-side Anthropic integration would require a separate authorized API connection and budget.
 
 Agent browser automation in this ChatGPT session is not a worker permanently attached to the site. Configured agents are not simultaneously running models. No new public posts are authorized by editing a brief.
+
+## Independent brains and account isolation
+
+Each role now has an authoritative, individually editable JSON brain in `agents/brains/<role>.json`, a separate Markdown role description and its own code module. Model settings and output contract belong to that role. They can use the same underlying model without sharing prompts or private working memory. These are software agent configurations, not independently trained model weights or consciousness.
+
+`runtime.run_agent` reads only `data/memory/<account_id>/agent/<role>.jsonl` plus explicitly human-reviewed team lessons for that same account. Raw model drafts are marked unverified. New account IDs must have their own configuration under `config/brands/`; unknown accounts are rejected. The first profile is `jmanfire2`. No new social profiles are created by adding configuration.
+
+The browser workspace now saves under an account-scoped key and exports its account identity. Cross-account imports are rejected. UI changes remain local and are not automatically committed into server brain files. The links on each agent show its actual separate brain and code.
+
+`python -m src.content_agents.collect_youtube data/official-cohort.json` collects at most 30 video and 30 Shorts public listing records from the official Clash Royale channel. It requires `yt-dlp` installed in that worker. No video is downloaded and no account authentication is used. Counts can be rounded. This collector is implemented and was run manually in this session, not deployed as an ongoing background job.
